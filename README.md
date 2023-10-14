@@ -12,7 +12,11 @@ O objetivo é criar um relatório de vendas com Power BI. Neste relatório, fora
 * tabela específica para medidas 
 * projeto .pbip versionável
 
+## Página 1
 
-<img src="/assets/img/Print_page1.jpg">
 
-<img src="/assets/img/Print_page2.jpg">
+<img src="Print_page1.jpg">
+
+## Página 2
+
+<img src="Print_page2.jpg">
