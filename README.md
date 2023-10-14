@@ -6,6 +6,7 @@ O objetivo é criar um relatório de vendas com Power BI. Neste relatório, fora
 * gráficos de linhas para indicar tendência no tempo
 * treemap para mostrar a participação no todo de cada categoria
 * gráfico de colunas para ilustrar magnitude por categorias
+* mapas para mostrar dados geográficos
 * segmentação de dados, bookmarks e botões para melhor interatividade
 * backgrounds personalizados
 * parâmetros para seleção de métricas distintas em um mesmo visual
