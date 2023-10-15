@@ -22,7 +22,7 @@ Projeto desenvolvido como parte do Santander Bootcamp 2023 - Ciência de Dados c
 
 
 
-# 🛠️ [Tratamento de dados com Power Query](Tratamento de dados)
+# 🛠️ [Tratamento de dados com Power Query](Tratamento-de-dados)
 
 Projeto desenvolvido como parte do Santander Bootcamp 2023 - Ciência de Dados com Python, cujo objetivo é realizar o processamento e transformação, com Power BI, de dados provenientes de uma instância MySQL na nuvem.
 
