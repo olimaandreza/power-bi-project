@@ -8,18 +8,18 @@ Passos realizados:
 
 1. Criação de uma instância RDS na AWS para MySQL
 
-<img src="Tratamento de dados\Img\aws.png">
+<img src="Tratamento-de-dados\Img\aws.png">
 
 
 2. Criar o banco de dados com base nos scripts
 
-* [ddl.sql](Tratamento de dados\Dados\ddl.sql): Cria o banco de dados, bem como suas tabelas e chaves primárias e estrangeiras
+* [ddl.sql](Tratamento-de-dados\Img\aws.png\Dados\ddl.sql): Cria o banco de dados, bem como suas tabelas e chaves primárias e estrangeiras
 
-* [insert.sql](Tratamento de dados\Dados\insert.sql): insere os dados nas tabelas
+* [insert.sql](Tratamento-de-dados\Img\aws.png\Dados\insert.sql): insere os dados nas tabelas
 
 3. Integração do Power BI com MySQL no Azure
 
-<img src="Tratamento de dados\Img\integracao-pbi.png">
+<img src="Tratamento-de-dados\Img\integracao-pbi.png">
 
 4. Verificar problemas nas bases a fim de realizar a transformação dos dados e preparação para os reports analíticos
 
