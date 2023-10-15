@@ -1,8 +1,6 @@
-# 📈 Report Financeiro com Power BI
+# 📈 [Report Financeiro com Power BI](Report)
 
-Projeto desenvolvido como parte do Santander Bootcamp 2023 - Ciência de Dados com Python.
-
-O objetivo é criar um relatório de vendas com Power BI. Neste relatório, foram utilizados:
+Projeto desenvolvido como parte do Santander Bootcamp 2023 - Ciência de Dados com Python cujo objetivo é criar um relatório de vendas com Power BI. Neste relatório, foram utilizados:
 * gráficos de linhas para indicar tendência no tempo
 * treemap para mostrar a participação no todo de cada categoria
 * gráfico de colunas para ilustrar magnitude por categorias
@@ -16,8 +14,21 @@ O objetivo é criar um relatório de vendas com Power BI. Neste relatório, fora
 ## Página 1
 
 
-<img src="Print_page1.jpg">
+<img src="Report\Print_page1.jpg">
 
 ## Página 2
 
-<img src="Print_page2.jpg">
+<img src="Report\Print_page2.jpg">
+
+
+
+# 🛠️ [Tratamento de dados com Power Query](Tratamento de dados)
+
+Projeto desenvolvido como parte do Santander Bootcamp 2023 - Ciência de Dados com Python, cujo objetivo é realizar o processamento e transformação, com Power BI, de dados provenientes de uma instância MySQL na nuvem.
+
+
+
+
+
+
+

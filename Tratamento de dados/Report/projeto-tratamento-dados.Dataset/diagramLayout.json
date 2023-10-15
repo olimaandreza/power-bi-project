@@ -1,0 +1,126 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 302.36212158203125,
+        "y": 291
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 849.1403167966921,
+            "y": 453.38775410923017
+          },
+          "nodeIndex": "azure_company departament",
+          "nodeLineageTag": "714821ad-8a51-46d1-a9f3-fedb28fc6326",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 6
+        },
+        {
+          "location": {
+            "x": 0,
+            "y": 448.54106554136678
+          },
+          "nodeIndex": "azure_company dependent",
+          "nodeLineageTag": "6ca22eef-c561-4ed4-9bc2-f0287f2df475",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 1
+        },
+        {
+          "location": {
+            "x": 1311.1797438645722,
+            "y": 551.443306603082
+          },
+          "nodeIndex": "azure_company dept_locations",
+          "nodeLineageTag": "7595eb2f-88f7-46f0-83df-9eacafbbb33e",
+          "size": {
+            "height": 193,
+            "width": 234
+          },
+          "zIndex": 5
+        },
+        {
+          "location": {
+            "x": 385.05001106771203,
+            "y": 398.64121194130212
+          },
+          "nodeIndex": "azure_company employee",
+          "nodeLineageTag": "294c40af-fbfd-4701-a549-954e899e545c",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 2
+        },
+        {
+          "location": {
+            "x": 630.12905642391877,
+            "y": 0
+          },
+          "nodeIndex": "azure_company project",
+          "nodeLineageTag": "b6728a2f-e6d2-49ad-8d86-a6297d2d86c7",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 3
+        },
+        {
+          "location": {
+            "x": 159.07751274263563,
+            "y": 53
+          },
+          "nodeIndex": "azure_company works_on",
+          "nodeLineageTag": "8590fe0a-a3be-41f1-bee0-4541e41d0284",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 4
+        },
+        {
+          "location": {
+            "x": 1368.1797438645722,
+            "y": 217.77053277068342
+          },
+          "nodeIndex": "Department-Location",
+          "nodeLineageTag": "466f166d-7b33-491f-aa68-455d1fd07e09",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1652.1797438645722,
+            "y": 308.221653301541
+          },
+          "nodeIndex": "Agrupamento Manager-Employee",
+          "nodeLineageTag": "bb1c9d1e-8c3a-45d0-bdc9-0106d311c361",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "Todas as tabelas",
+      "zoomValue": 100,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "Todas as tabelas",
+  "defaultDiagram": "Todas as tabelas"
+}

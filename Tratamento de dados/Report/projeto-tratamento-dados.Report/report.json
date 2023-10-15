@@ -1,0 +1,78 @@
+{
+  "config": "{\"version\":\"5.47\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY23SU08\",\"version\":\"5.48\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY23SU08",
+            "path": "BaseThemes/CY23SU08.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{\"objects\":{\"outspacePane\":[{\"properties\":{\"inputBoxColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}]}}",
+      "displayName": "Página 1",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ReportSection",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"3eb99a911e50de712df7\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":206.34146341463415,\"z\":0,\"width\":602.9268292682926,\"height\":501.9512195121951,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"barChart\",\"projections\":{\"Category\":[{\"queryRef\":\"azure_company employee.Employee Name\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(azure_company works_on.Hours)\"}],\"Series\":[{\"queryRef\":\"azure_company project.Project Name\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"azure_company employee\",\"Type\":0},{\"Name\":\"a1\",\"Entity\":\"azure_company works_on\",\"Type\":0},{\"Name\":\"a2\",\"Entity\":\"azure_company project\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Employee Name\"},\"Name\":\"azure_company employee.Employee Name\",\"NativeReferenceName\":\"Employee Name\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a1\"}},\"Property\":\"Hours\"}},\"Function\":0},\"Name\":\"Sum(azure_company works_on.Hours)\",\"NativeReferenceName\":\"Soma de Hours\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a2\"}},\"Property\":\"Project Name\"},\"Name\":\"azure_company project.Project Name\",\"NativeReferenceName\":\"Project Name\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a1\"}},\"Property\":\"Hours\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 501.95,
+          "width": 602.93,
+          "x": 0.00,
+          "y": 206.34,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"720735d649a78c27a55a\",\"layouts\":[{\"id\":0,\"position\":{\"x\":617.560975609756,\"y\":428.780487804878,\"z\":2,\"width\":662.9268292682926,\"height\":279.5121951219512,\"tabOrder\":2}}],\"singleVisual\":{\"visualType\":\"donutChart\",\"projections\":{\"Category\":[{\"queryRef\":\"azure_company employee.Employee Sex\"}],\"Y\":[{\"queryRef\":\"CountNonNull(azure_company employee.Employee_id)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"azure_company employee\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Employee Sex\"},\"Name\":\"azure_company employee.Employee Sex\",\"NativeReferenceName\":\"Employee Sex\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Employee_id\"}},\"Function\":5},\"Name\":\"CountNonNull(azure_company employee.Employee_id)\",\"NativeReferenceName\":\"Contagem de Employee_id\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Employee_id\"}},\"Function\":5}}}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 279.51,
+          "width": 662.93,
+          "x": 617.56,
+          "y": 428.78,
+          "z": 2.00
+        },
+        {
+          "config": "{\"name\":\"74b7f94e7435e21e2a24\",\"layouts\":[{\"id\":0,\"position\":{\"x\":43.90243902439024,\"y\":93.65853658536585,\"z\":4,\"width\":232.6829268292683,\"height\":112.6829268292683,\"tabOrder\":4}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Count(azure_company employee.Employee_id)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"azure_company employee\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Employee_id\"}},\"Function\":2},\"Name\":\"Count(azure_company employee.Employee_id)\",\"NativeReferenceName\":\"Contagem de Employee_id\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Number of Employees'\"}}},\"heading\":{\"expr\":{\"Literal\":{\"Value\":\"'Heading2'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 112.68,
+          "width": 232.68,
+          "x": 43.90,
+          "y": 93.66,
+          "z": 4.00
+        },
+        {
+          "config": "{\"name\":\"95d5dc29964f34231782\",\"layouts\":[{\"id\":0,\"position\":{\"x\":602.9268292682926,\"y\":99.51219512195122,\"z\":3,\"width\":677.560975609756,\"height\":304.390243902439,\"tabOrder\":3}}],\"singleVisual\":{\"visualType\":\"barChart\",\"projections\":{\"Category\":[{\"queryRef\":\"azure_company employee.Employee Name\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(azure_company employee.Salary)\"}],\"Series\":[{\"queryRef\":\"azure_company employee.Department\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"azure_company employee\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Employee Name\"},\"Name\":\"azure_company employee.Employee Name\",\"NativeReferenceName\":\"Employee Name\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Salary\"}},\"Function\":0},\"Name\":\"Sum(azure_company employee.Salary)\",\"NativeReferenceName\":\"Soma de Salary\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Department\"},\"Name\":\"azure_company employee.Department\",\"NativeReferenceName\":\"Department\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Salary\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 304.39,
+          "width": 677.56,
+          "x": 602.93,
+          "y": 99.51,
+          "z": 3.00
+        },
+        {
+          "config": "{\"name\":\"ebc0744b8c4acf553304\",\"layouts\":[{\"id\":0,\"position\":{\"x\":330.7317073170732,\"y\":93.65853658536585,\"z\":5,\"width\":232.6829268292683,\"height\":112.6829268292683,\"tabOrder\":5}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Min(azure_company employee.Employee Manager)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"azure_company employee\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Employee Manager\"}},\"Function\":2},\"Name\":\"Min(azure_company employee.Employee Manager)\",\"NativeReferenceName\":\"Contagem de Employee Manager\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Employee Manager\"}},\"Function\":2}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Number of Managers'\"}}},\"heading\":{\"expr\":{\"Literal\":{\"Value\":\"'Heading2'\"}}}}}]}}}",
+          "filters": "[{\"name\":\"Filter7bfe70cf1d3072b5e054\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"azure_company employee\"}},\"Property\":\"Employee Manager\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"azure_company employee\",\"Type\":0}],\"Where\":[{\"Condition\":{\"Not\":{\"Expression\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Employee Manager\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"null\"}}]]}}}}}]},\"type\":\"Categorical\",\"howCreated\":1,\"objects\":{\"general\":[{\"properties\":{\"isInvertedSelectionMode\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}]",
+          "height": 112.68,
+          "width": 232.68,
+          "x": 330.73,
+          "y": 93.66,
+          "z": 5.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ]
+}
