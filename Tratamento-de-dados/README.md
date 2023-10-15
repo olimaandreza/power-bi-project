@@ -11,6 +11,9 @@ Passos realizados:
 <img src="Img\aws.png">
 
 
+> arquivos .csv foram incluídos na [pasta de Dados](Dados), caso queiram reproduzir o tratamento de dados sem a etapa de criação de uma instância de Banco de Dados.
+
+
 2. Criar o banco de dados com base nos scripts
 
 * [ddl.sql](Img\aws.png\Dados\ddl.sql): Cria o banco de dados, bem como suas tabelas e chaves primárias e estrangeiras
