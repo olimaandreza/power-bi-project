@@ -19,7 +19,7 @@ Passos realizados:
 
 3. Integração do Power BI com MySQL no Azure
 
-<img src="Img\integracao-pbi.png">
+<img src="Img\Integracao-pbi.png">
 
 4. Verificar problemas nas bases a fim de realizar a transformação dos dados e preparação para os reports analíticos
 
